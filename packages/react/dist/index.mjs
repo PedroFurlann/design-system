@@ -18,3 +18,6 @@ var colors = {
 
 // src/index.ts
 console.log(colors);
+export {
+  colors
+};
