@@ -17,10 +17,10 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// src/index.ts
+// src/index.tsx
 var src_exports = {};
 __export(src_exports, {
-  colors: () => colors
+  App: () => App
 });
 module.exports = __toCommonJS(src_exports);
 
@@ -42,9 +42,12 @@ var colors = {
   ignite900: "#00291D"
 };
 
-// src/index.ts
-console.log(colors);
+// src/index.tsx
+var import_jsx_runtime = require("react/jsx-runtime");
+function App() {
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", { style: { color: colors.ignite300 }, children: "Hello World" });
+}
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  colors
+  App
 });
