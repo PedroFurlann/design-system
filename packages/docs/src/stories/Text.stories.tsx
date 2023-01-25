@@ -7,6 +7,29 @@ export default {
   args: {
     children:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quaerat veniam accusantium suscipit illo? Reprehenderit aliquid sit error. Quae asperiores et alias odio quos officiis quo sint voluptates. Cumque, quos.',
+    size: 'md',
+  },
+  argTypes: {
+    size: {
+      options: [
+        'xxs',
+        'xs',
+        'sm',
+        'md',
+        'lg',
+        'xl',
+        '2xl',
+        '4xl',
+        '5xl',
+        '6xl',
+        '7xl',
+        '8xl',
+        '9xl',
+      ],
+      control: {
+        type: 'inline-radio',
+      },
+    },
   },
 } as Meta<TextProps>
 
