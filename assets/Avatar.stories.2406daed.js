@@ -1,0 +1,2 @@
+import{A as t}from"./index.3cc19bf5.js";import"./index.e3e0d58c.js";import"./iframe.3401d3a0.js";import"./index.9137c03b.js";import"./jsx-runtime.f237fa72.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/pedrofurlann.png",alt:"Pedro Furlan"}},c={},e={args:{src:void 0},argTypes:{src:{control:{type:"text"}}}},n=["Primary","WithFallback"];export{c as Primary,e as WithFallback,n as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.2406daed.js.map
